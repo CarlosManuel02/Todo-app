@@ -1,0 +1,139 @@
+
+* {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.main{
+    margin: 0 10px 10px 10px;
+}
+
+label {
+    text-size: 2rem;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.main label {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.main input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.main button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.main button:hover {
+    background-color: #ccc;
+}
+
+.main button:active {
+    background-color: #aaa;
+}
+
+.main button:focus {
+    outline: none;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo ul label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.todo ul label:hover {
+    background-color: #ccc;
+}
+
+.todo ul label button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.todo ul label button:hover {
+    color: #f00;
+}
+
+.todo label input {
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    width: 100%;
+    margin-left: auto;
+}
+
+.todo label input:focus {
+    outline: none;
+}
+
+.todo label input[type="checkbox"] {
+    margin-right: auto;
+    margin-left: 0;
+    width: auto;
+
+}
+
+.todo li input[type="checkbox"]:checked {
+    text-decoration: line-through;
+}
+
+.todo li input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+}
+
+.todo li label {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.btn-class{
+    /*position: fixed;*/
+    display: flex;
+    padding-left: 86%;
+}
+
+
+
